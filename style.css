@@ -42,8 +42,12 @@ header .bg-body-tertiary {
 }
 
 .button-color {
-    background-color: RGB(204, 85, 0) !important;
+    background-color: #CC5500 !important;
     color: white !important;
+}
+
+.button-color:hover {
+    background-color: #d656008a !important;
 }
 
 .font-button{
