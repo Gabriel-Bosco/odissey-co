@@ -55,10 +55,6 @@ header .bg-body-tertiary {
 }
 
 /* --- CARD DESTAQUES --- */
-#destaques .destaques {
-    height: 100vh;
-}
-
 .btn-md {
     width: 150px;
     padding: 2px !important;
@@ -68,8 +64,16 @@ header .bg-body-tertiary {
     background-color: black !important;
 }
 
+@media (min-width: 768px) {
+    .destaques {
+      height: 100vh;
+    }
+  }
+  
+
 /* --- FOOTER --- */
 .footer {
     height: 20vh;
     background: black;
 }
+
