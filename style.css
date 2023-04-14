@@ -1,9 +1,14 @@
+/* --- HEADER /// CARROSSEL --- */
 header .bg-body-tertiary {
     --bs-bg-opacity: 0 !important;
     left: 0;
     top: 0;
     width: 100%;
 }
+
+.carrossel {
+    width: 100%;
+  }
 
 .titulo {
     font-family: 'Comforter Brush', cursive;
@@ -16,14 +21,31 @@ header .bg-body-tertiary {
     background-color: rgb(255, 255, 255, 0);
 }
 
-.carrossel {
-  width: 100%;
-}
-
 .imagem {
     height: 100vh;
 }
 
 .p-subtitulo {
     text-shadow: 0 4px 1px rgb(0, 0, 0);
+}
+
+/* --- CARDS /// COMUNIDADE --- */
+
+#card .card {
+    height: 100vh;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, RGB(101, 67, 33), RGB(139, 69, 19), RGB(205, 133, 63), RGB(245, 222, 179));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-color {
+    background-color: RGB(204, 85, 0) !important;
+    color: white !important;
+}
+
+.font-button{
+    font-size: 1.5em !important;
 }
