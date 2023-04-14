@@ -1,0 +1,29 @@
+header .bg-body-tertiary {
+    --bs-bg-opacity: 0 !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.titulo {
+    font-family: 'Comforter Brush', cursive;
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 0 5px 5px rgb(105, 67, 10) ;
+}
+
+.bg-botao {
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.carrossel {
+  width: 100%;
+}
+
+.imagem {
+    height: 100vh;
+}
+
+.p-subtitulo {
+    text-shadow: 0 4px 4px rgb(0, 0, 0);
+}
