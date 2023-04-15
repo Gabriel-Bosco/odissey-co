@@ -6,10 +6,6 @@ header .bg-body-tertiary {
     width: 100%;
 }
 
-.carrossel {
-    width: 100%;
-  }
-
 .titulo {
     font-family: 'Comforter Brush', cursive;
     color: white;
@@ -21,12 +17,27 @@ header .bg-body-tertiary {
     background-color: rgb(255, 255, 255, 0);
 }
 
+.search {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carrossel {
+    width: 100%;
+}
+
 .imagem {
     height: 100vh;
 }
 
-.p-subtitulo {
+.carrossel .titulo {
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0 1px 1px rgb(0, 0, 0) ;
+}
+
+.carrossel .subtitulo {
     text-shadow: 0 2px 2px rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 /* --- CARDS /// COMUNIDADE --- */
@@ -36,9 +47,17 @@ header .bg-body-tertiary {
 }
 
 .gradient-text {
-    background: linear-gradient(45deg, RGB(101, 67, 33), RGB(139, 69, 19), RGB(205, 133, 63), RGB(245, 222, 179));
+    background: linear-gradient(45deg, RGB(101, 67, 33), RGB(139, 69, 19), RGB(205, 133, 63));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.title {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .button-color {
@@ -67,6 +86,9 @@ header .bg-body-tertiary {
 @media (min-width: 768px) {
     .destaques {
       height: 100vh;
+    }
+    .link-destaques {
+        padding: 30px;
     }
   }
   
