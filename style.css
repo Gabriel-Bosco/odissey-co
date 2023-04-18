@@ -96,23 +96,29 @@ header .bg-body-tertiary {
     height: 100vh;
 }
 
+.genero .imagem-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imagem-genero:hover {
+    transform: scale(1.2);
+    transition: 400ms ease;
+}
+
+.imagem-genero:hover, .imagem-genero{
+    transition-duration: 300ms;
+    transition-delay: 0s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
 @media (min-width: 768px) {
     .genero .imagem-container {
         width: 570px;
         height: 570px;
         overflow: hidden;
-    }
-
-    .imagem-genero:hover {
-        transform: scale(1.2);
-        transition: 400ms ease;
-    }
-
-    .imagem-genero:hover, .imagem-genero{
-        transition-duration: 300ms;
-        transition-delay: 0s;
-        transition-property: transform;
-        transition-timing-function: ease-in-out;
     }
 }
 
