@@ -124,6 +124,10 @@ header .bg-body-tertiary {
 
   /* --- CLUBE --- */
 
+.clube {
+    height: 100vh;
+}
+
 #clube .card {
     height: 100vh;
 }
