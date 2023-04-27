@@ -88,14 +88,6 @@ header .bg-body-tertiary {
 
   /* --- GENÊRO --- */
 
-.branco {
-    color: white !important;
-}
-
-.genero {
-    height: 100vh;
-}
-
 .genero .imagem-container {
     width: 100%;
     height: 100%;
@@ -128,24 +120,6 @@ header .bg-body-tertiary {
     height: 100vh;
 }
 
-#clube .card {
-    height: 100vh;
-}
-
-.gradient-text {
-    background: linear-gradient(45deg, RGB(101, 67, 33), RGB(139, 69, 19), RGB(205, 133, 63));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.f-urbanist {
-    font-family: 'Urbanist', sans-serif;
-}
-
-.f-montserrat {
-    font-family: 'Montserrat', sans-serif;
-}
-
 .button-color {
     background-color: #CC5500 !important;
     color: white !important;
@@ -159,6 +133,20 @@ header .bg-body-tertiary {
 .font-button{
     font-size: 1.5em !important;
 }
+
+.card .bg-opacity {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+@media (min-width: 768px) {
+    .clube .card-img {
+        height: 100vh;
+    }
+
+    .w-80 {
+        width: 80%;
+    }
+}
   
 
 /* --- FOOTER --- */
@@ -167,3 +155,22 @@ header .bg-body-tertiary {
     background: black;
 }
 
+/* --- FONTES --- */
+
+.f-urbanist {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.f-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --- CORES --- */
+
+.branco {
+    color: white !important;
+}
+
+.preto {
+    color: black !important;
+}
