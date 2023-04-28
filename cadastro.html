@@ -12,27 +12,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Comforter+Brush&family=Montserrat&family=Urbanist&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="text-center">Bem-vindo ao Clube de Trilhas e Aventuras: Descubra um novo mundo.</h1>
-    <div class="d-flex justify-content-center">
-        <video src="/imagensmd/video.mp4" class="video" controls autoplay loop></video>
-    </div>
+    <main>    
+        <section id="video">
+            <div class="d-flex flex-column justify-content-center video-container">
+                <h1 class="text-center py-3 branco f-urbanist bem">Bem-vindo ao Clube de Trilhas e Aventuras: Nós temos o caminho das pedras.</h1>
+                <video src="/imagens/video.mp4" class="video-mobile d-block d-sm-block d-md-none" controls loop></video>
+                <video src="/imagensmd/video.mp4" class="video-md d-none d-sm-none d-md-block" controls loop></video>
+            </div>
+        </section>
 
-    <div  class="vh">
-        <ol class="d-flex flex-column">
-            <il>1- Rotas exclusivas de trilhas, com dicas e informações detalhadas sobre cada uma.</il>
-            <il>2- Descontos em equipamentos de aventura em parceiros do clube.</il>
-            <il>3- Acompanhamento de guias especializados nas trilhas, garantindo mais segurança e confiança.</il>
-            <il>4- Acesso a eventos exclusivos e viagens de aventura organizadas pelo clube.</il>
-            <il>5- Participação em workshops e treinamentos exclusivos oferecidos pelo clube, como técnicas de sobrevivência, primeiros socorros, entre outros.</il>
-            <il>6- Promoção de um estilo de vida ativo e saudável, com a prática de atividades ao ar livre.</il>
-            <il>7- Oportunidade de conhecer novas pessoas que compartilham do mesmo interesse e estilo de vida.</il>
-            <il>8- Possibilidade de contribuir com causas ambientais e de preservação da natureza através de ações promovidas pelo clube.</il>
-            <il>9- Acesso a conteúdos exclusivos sobre trilhas e aventuras, como dicas de alimentação, treinamento e equipamentos.</il>
-            <il>10- Experiências inesquecíveis e histórias para contar para a vida toda!</il>
-        </ol>
-    </div>
+        <section id="vantagens">
+            <div class="vh vantagens py-5 px-3 d-flex flex-column justify-content-around">
+                <h2 class="text-center f-urbanist">
+                    Veja os benefícios do Clube:
+                </h2>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4"> 
+                            <p class="mb-3 f-montserrat text-center">Participação em treinamentos exclusivos, como técnicas de sobrevivência, primeiros socorros, entre outros.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4"> 
+                            <p class="mb-3 f-montserrat text-center">Rotas exclusivas de trilhas, com dicas e informações detalhadas sobre cada uma.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4"> 
+                            <p class="mb-3 f-montserrat text-center">Acompanhamento de guias especializados nas trilhas, garantindo mais segurança e confiança.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4"> 
+                            <p class="mb-3 f-montserrat text-center">Oportunidade de conhecer novas pessoas que compartilham do mesmo interesse e estilo de vida.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4"> 
+                            <p class="mb-3 f-montserrat text-center">Descontos em equipamentos de aventura em parceiros da Odissey.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4"> 
+                            <p class="mb-3 f-montserrat text-center">Você também contribui com causas ambientais e de preservação da natureza.</p>
+                        </div>
+                    </div>    
+                </div>  
+                       
+            </div>
+        </section>
     
-
+    </main>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

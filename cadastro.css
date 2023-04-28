@@ -1,8 +1,57 @@
-.video {
+.video-md {
     width: 100%;
     height: 90vh;
 }
 
+.video-mobile {
+    width: 100%;
+    height: 80vh;
+}
+
+.bem {
+    background-image: url(/imagens/clube/clube1.png);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
+/* --- DIMENSÕES --- */
 .vh {
     height: 100vh;
+}
+
+/* --- FONTES --- */ 
+.f-urbanist {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.f-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --- CORES --- */
+.laranja {
+    color: #cc5500;
+}
+
+.bg-laranja {
+    background-color: #cc5500;
+}
+
+.branco {
+    color: white
+}
+
+.bg-branco {
+    background-color: white;
+}
+
+.preto {
+    color: black;
+}
+
+.bg-preto {
+    background-color: black;
 }
