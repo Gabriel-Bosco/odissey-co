@@ -10,53 +10,200 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Comforter+Brush&family=Montserrat&family=Urbanist&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+
+
 </head>
 <body>
     <main>    
         <section id="video">
-            <div class="d-flex flex-column justify-content-center video-container">
-                <h1 class="text-center py-3 branco f-urbanist bem">
-                    Bem-vindo ao Clube de Trilhas e Aventuras: 
-                    <br>
-                    Nós temos o caminho das pedras.
-                </h1>
-                <video src="/imagens/video.mp4" class="video-mobile d-block d-sm-block d-md-none" controls loop></video>
-                <video src="/imagensmd/video.mp4" class="video-md d-none d-sm-none d-md-block" controls loop></video>
+            <div class="d-flex flex-column justify-content-around video-container py-3">
+                <div>
+                    <h1 class=" text-center py-3 preto f-urbanist display-3 px-3">
+                        Bem-vindo ao Clube de Trilhas e Aventuras: 
+                    </h1>
+                    <p class="f-montserrat px-3 py-4">
+                        Estamos unindo aqueles que acreditam que as trilhas e aventuras são mais do que apenas atividades físicas.
+                        Aqui iniciamos um pacto com a descoberta pessoal. Junte-se a nós nessa jornada emocionante!
+                    </p>
+                </div>
+                <div class="text-center">
+                    <iframe src="https://www.youtube.com/embed/CNNkI7HWT1Q" title="YouTube video player" class="video-md rounded-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
+            <div class="container-button text-center my-5 pt-3">
+                <button class="btn btn-dark f-urbanist text-uppercase rounded-4">
+                    Quero entrar para o clube!
+                </button>  
+            </div>  
+        </section>
+
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card border-0 m-0" style="width: 18rem;">
+                        <img src="/padrão/Avaliacoes/av1.png" class="d-block w-100 rounded-circle" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">"Eu não poderia estar mais feliz em fazer parte do Clube de Trilhas e Aventuras. Desde que me juntei, fui capaz de participar de aventuras incríveis, fazer amizades duradouras e aprender muito sobre mim mesmo. Obrigado, Clube!"</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card border-0" style="width: 18rem;">
+                        <img src="/padrão/Avaliacoes/av2.png" class="d-block w-100 rounded-circle" alt="...">
+                        <div class="card-body">
+                            <i class="bi bi-chat-left-quote d-inline"></i> <p class="card-text d-inline"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card border-0" style="width: 18rem;">
+                        <img src="/padrão/Avaliacoes/av3.png" class="d-block w-100 rounded-circle" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card border-0" style="width: 18rem;">
+                        <img src="/padrão/Avaliacoes/av4.png" class="d-block w-100 rounded-circle" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
 
         <section id="vantagens">
-            <div class="vh vantagens py-5 px-3 d-flex flex-column justify-content-around">
-                <h2 class="text-center f-urbanist">
+            <div class="vantagens px-3 pb-3 d-flex flex-column justify-content-around">
+                <h2 class="text-center f-urbanist display-3 mt-5">
                     Veja os benefícios do Clube:
                 </h2>
                 <div class="container text-center">
-                    <div class="row">
+                    <div class="row row-gap-5">
                         <div class="col-sm-6 col-md-4"> 
-                            <p class="mb-3 f-montserrat text-center">Participação em treinamentos exclusivos, como técnicas de sobrevivência, primeiros socorros, entre outros.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+                              </svg>
+                            <p class="mb-3 f-montserrat text-center mt-4">Participação em treinamentos exclusivos, como técnicas de sobrevivência, primeiros socorros, entre outros.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-signpost-2-fill" viewBox="0 0 16 16">
+                                <path d="M7.293.707A1 1 0 0 0 7 1.414V2H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h5v1H2.5a1 1 0 0 0-.8.4L.725 8.7a.5.5 0 0 0 0 .6l.975 1.3a1 1 0 0 0 .8.4H7v5h2v-5h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H9V6h4.5a1 1 0 0 0 .8-.4l.975-1.3a.5.5 0 0 0 0-.6L14.3 2.4a1 1 0 0 0-.8-.4H9v-.586A1 1 0 0 0 7.293.707z"/>
+                              </svg>
+                            <p class="mb-3 f-montserrat text-center mt-4">Rotas exclusivas de trilhas, com dicas e informações detalhadas sobre cada uma.</p>
                         </div>
                         <div class="col-sm-6 col-md-4"> 
-                            <p class="mb-3 f-montserrat text-center">Rotas exclusivas de trilhas, com dicas e informações detalhadas sobre cada uma.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-browser-safari" viewBox="0 0 16 16">
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm.25-14.75v1.5a.25.25 0 0 1-.5 0v-1.5a.25.25 0 0 1 .5 0Zm0 12v1.5a.25.25 0 1 1-.5 0v-1.5a.25.25 0 1 1 .5 0ZM4.5 1.938a.25.25 0 0 1 .342.091l.75 1.3a.25.25 0 0 1-.434.25l-.75-1.3a.25.25 0 0 1 .092-.341Zm6 10.392a.25.25 0 0 1 .341.092l.75 1.299a.25.25 0 1 1-.432.25l-.75-1.3a.25.25 0 0 1 .091-.34ZM2.28 4.408l1.298.75a.25.25 0 0 1-.25.434l-1.299-.75a.25.25 0 0 1 .25-.434Zm10.392 6 1.299.75a.25.25 0 1 1-.25.434l-1.3-.75a.25.25 0 0 1 .25-.434ZM1 8a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 0 .5h-1.5A.25.25 0 0 1 1 8Zm12 0a.25.25 0 0 1 .25-.25h1.5a.25.25 0 1 1 0 .5h-1.5A.25.25 0 0 1 13 8ZM2.03 11.159l1.298-.75a.25.25 0 0 1 .25.432l-1.299.75a.25.25 0 0 1-.25-.432Zm10.392-6 1.299-.75a.25.25 0 1 1 .25.433l-1.3.75a.25.25 0 0 1-.25-.434ZM4.5 14.061a.25.25 0 0 1-.092-.341l.75-1.3a.25.25 0 0 1 .434.25l-.75 1.3a.25.25 0 0 1-.342.091Zm6-10.392a.25.25 0 0 1-.091-.342l.75-1.299a.25.25 0 1 1 .432.25l-.75 1.3a.25.25 0 0 1-.341.09ZM6.494 1.415l.13.483a.25.25 0 1 1-.483.13l-.13-.483a.25.25 0 0 1 .483-.13ZM9.86 13.972l.13.483a.25.25 0 1 1-.483.13l-.13-.483a.25.25 0 0 1 .483-.13ZM3.05 3.05a.25.25 0 0 1 .354 0l.353.354a.25.25 0 0 1-.353.353l-.354-.353a.25.25 0 0 1 0-.354Zm9.193 9.193a.25.25 0 0 1 .353 0l.354.353a.25.25 0 1 1-.354.354l-.353-.354a.25.25 0 0 1 0-.353ZM1.545 6.01l.483.13a.25.25 0 1 1-.13.483l-.483-.13a.25.25 0 1 1 .13-.482Zm12.557 3.365.483.13a.25.25 0 1 1-.13.483l-.483-.13a.25.25 0 1 1 .13-.483Zm-12.863.436a.25.25 0 0 1 .176-.306l.483-.13a.25.25 0 1 1 .13.483l-.483.13a.25.25 0 0 1-.306-.177Zm12.557-3.365a.25.25 0 0 1 .176-.306l.483-.13a.25.25 0 1 1 .13.483l-.483.13a.25.25 0 0 1-.306-.177ZM3.045 12.944a.299.299 0 0 1-.029-.376l3.898-5.592a.25.25 0 0 1 .062-.062l5.602-3.884a.278.278 0 0 1 .392.392L9.086 9.024a.25.25 0 0 1-.062.062l-5.592 3.898a.299.299 0 0 1-.382-.034l-.005-.006Zm3.143 1.817a.25.25 0 0 1-.176-.306l.129-.483a.25.25 0 0 1 .483.13l-.13.483a.25.25 0 0 1-.306.176ZM9.553 2.204a.25.25 0 0 1-.177-.306l.13-.483a.25.25 0 1 1 .483.13l-.13.483a.25.25 0 0 1-.306.176Z"/>
+                              </svg>
+                            <p class="mb-3 f-montserrat text-center mt-4">Acompanhamento de guias especializados nas trilhas, garantindo mais segurança e confiança.</p>
                         </div>
                         <div class="col-sm-6 col-md-4"> 
-                            <p class="mb-3 f-montserrat text-center">Acompanhamento de guias especializados nas trilhas, garantindo mais segurança e confiança.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+                                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+                              </svg>
+                            <p class="mb-3 f-montserrat text-center mt-4">Oportunidade de conhecer novas pessoas que compartilham do mesmo interesse e estilo de vida.</p>
                         </div>
                         <div class="col-sm-6 col-md-4"> 
-                            <p class="mb-3 f-montserrat text-center">Oportunidade de conhecer novas pessoas que compartilham do mesmo interesse e estilo de vida.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-tags-fill" viewBox="0 0 16 16">
+                                <path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043-7.457-7.457z"/>
+                              </svg>
+                            <p class="mb-3 f-montserrat text-center mt-4">Descontos em equipamentos de aventura em parceiros da Odissey.</p>
                         </div>
                         <div class="col-sm-6 col-md-4"> 
-                            <p class="mb-3 f-montserrat text-center">Descontos em equipamentos de aventura em parceiros da Odissey.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-tree-fill" viewBox="0 0 16 16">
+                                <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5z"/>
+                              </svg>
+                            <p class="mb-3 f-montserrat text-center mt-4">Você também contribui com causas ambientais e de preservação da natureza.</p>
                         </div>
-                        <div class="col-sm-6 col-md-4"> 
-                            <p class="mb-3 f-montserrat text-center">Você também contribui com causas ambientais e de preservação da natureza.</p>
-                        </div>
-                    </div>    
+                    </div>
                 </div>  
-                       
+                <div class="container-button text-center my-5 pt-2 pb-5">
+                    <button class="btn btn-dark f-urbanist text-uppercase rounded-4">
+                        Quero entrar para o clube!
+                    </button>  
+                </div>  
+                <div class="container-element text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg> 
+                </div> 
             </div>
+        </section>
+
+        <section id="assinatura">
+            <div class="assinatura mt-5">
+                <div class="card mx-4 rounded-4">
+                    <div class="card-header text-center">
+                      <h2 class="display-4 fw-bold f-urbanist">
+                        Assinatura Anual
+                      </h2>
+                      <h3 class="f-montserrat">
+                        Acesso por 365 dias
+                      </h3>
+                    </div>
+                    <div class="card-body text-center mt-4">
+                      <h5 class="card-title display-7 fw-bold f-urbanist">
+                        12x de R$49,90
+                      </h5>
+                      <p class="card-text f-montserrat text-uppercase mb-5">
+                        Ou R$499 à vista
+                      </p>
+                      <ul class="ul-assinatura text-start">
+                        <li class="py-4 border-bottom">
+                            <i class="bi bi-check2-all d-inline"></i>
+                            <p class="d-inline">Suporte exclusivo ao membro</p>
+                        </li>
+                        <li class="py-4 border-bottom">
+                            <i class="bi bi-check2-all d-inline"></i> 
+                            <p class="d-inline">Descontos de até 70% em produtos Odissey</p>
+                        </li>
+                        <li class="py-4 border-bottom">
+                            <i class="bi bi-check2-all d-inline"></i> 
+                            <p class="d-inline">Acesso antecipado a novos produtos</p>
+                        </li>
+                        <li class="py-4 border-bottom">
+                            <i class="bi bi-check2-all d-inline"></i> 
+                            <p class="d-inline">Mais de 5.000 membros ativos</p>
+                        </li>
+                        <li class="py-4 border-bottom">
+                            <i class="bi bi-check2-all d-inline"></i> 
+                            <p class="d-inline">Desafios e atividades regulares para estimular o progresso pessoal.</p>
+                        </li>
+                      </ul>
+                      <a href="" class="btn btn-dark f-urbanist text-uppercase rounded-4 py-2 px-4">Comece agora</a>
+                    </div>
+                  </div>
+            </div>
+
         </section>
     
     </main>
+    <footer>
+
+    </footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

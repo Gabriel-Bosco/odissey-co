@@ -1,15 +1,11 @@
 .video-md {
-    width: 100%;
-    height: 90vh;
+    width: 374px;
+    height: 250px;
 }
 
 .video-mobile {
     width: 100%;
     height: 80vh;
-}
-
-.bem {
-    background-image: url(/imagens/clube/clube1.png);
 }
 
 ul, ol {
@@ -29,6 +25,10 @@ ul, ol {
 
 .f-montserrat {
     font-family: 'Montserrat', sans-serif;
+}
+
+.display-7 {
+    font-size: 70pt;
 }
 
 /* --- CORES --- */
