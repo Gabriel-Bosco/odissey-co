@@ -12,6 +12,14 @@ ul, ol {
     list-style: none;
 }
 
+footer {
+    height: 250px;
+}
+
+.logotipo-footer {
+    width: 100px;
+}
+
 
 /* --- DIMENSÕES --- */
 .vh {
@@ -29,6 +37,10 @@ ul, ol {
 
 .display-7 {
     font-size: 70pt;
+}
+
+.f-space {
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 /* --- CORES --- */
@@ -54,4 +66,20 @@ ul, ol {
 
 .bg-preto {
     background-color: black;
+}
+
+.cinza-claro {
+    color: #ccc;
+}
+
+.bg-cinza-claro {
+    background-color: #ccc;
+}
+
+.cinza-escuro {
+    color: #5a5a5a;
+}
+
+.bg-cinza-escuro {
+    background-color: #5a5a5a;
 }
