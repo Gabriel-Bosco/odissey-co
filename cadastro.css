@@ -34,6 +34,10 @@ ul, ol {
     margin-right: -20px;
 }
 
+.avaliacoes {
+    height: 650px;
+}
+
 footer {
     height: 250px;
 }
@@ -71,7 +75,7 @@ footer {
 }
 
 .display-7 {
-    font-size: 70pt;
+    font-size: 65pt;
 }
 
 .display-8 {
