@@ -8,15 +8,60 @@
     <link rel="stylesheet" href="cadastro.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Grotesk&family=Urbanist&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat&family=Space+Grotesk&family=Urbanist&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     
 
 
 </head>
 <body>
-    <main>    
+    <main> 
+      <header id="inicio">
+        <div class="inicio inicio-bg d-flex flex-column pt-5 px-3">
+          <div class="d-flex align-items-center container-header">
+            <img src="/padrão/logotipo.png" alt="" class="logotipo-header">
+            <div class="d-flex flex-column align-items-center">
+              <h1 class="f-comforter cor-logo fw-bold titulo-header">
+                Odissey
+              </h1>
+              <h2 class="f-urbanist cor-logo display-3">
+                Club
+              </h2>
+            </div>
+          </div>
+          <div class="pt-5 px-4">
+            <h3 class="preto f-montserrat display-3 lh-1 text-center pb-3">
+              Nós sabemos o caminho das pedras!
+            </h3>
+            <p class="preto f-montserrat display-9 text-center">
+              Junte-se à nossa comunidade para explorar, expandir sua mente, fortalecer seu corpo e nutrir seu espírito.
+            </p>
+          </div>
+          <div class="container-button text-center my-3 pt-5">
+            <button class="btn btn-dark f-urbanist text-uppercase rounded-5 py-3 px-4">
+                Quero entrar para o clube!
+            </button>  
+          </div> 
+          <div class="pt-5 px-4">
+            <h6 class="preto f-montserrat display-6 lh-1 text-center pb-3">
+              Descubra o clube Odissey: Trilhas e aventuras completas!
+            </h6>
+            <p class="preto f-montserrat display-9 text-center">
+              Faça parte do maior clube de trilhas e aventuras da America Látina!
+              Aproveite descontos em equipamentos de aventura e contribua para causas ambientais.
+              Junte-se ao Clube Odissey e vivencie experiências únicas de trilhas e aventuras!
+            </p>
+          </div> 
+          <div class="container-element text-center pt-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg> 
+          </div> 
+        </div>
+      </header>
+      
         <section id="video">
             <div class="d-flex flex-column justify-content-around video-container py-3">
                 <div>
@@ -33,7 +78,7 @@
                 </div>
             </div>
             <div class="container-button text-center my-5 pt-3">
-                <button class="btn btn-dark f-urbanist text-uppercase rounded-4">
+                <button class="btn btn-dark f-urbanist text-uppercase rounded-5 py-3 px-4">
                     Quero entrar para o clube!
                 </button>  
             </div>  
@@ -88,7 +133,7 @@
                     </div>
                 </div>  
                 <div class="container-button text-center my-5 pt-2 pb-5">
-                    <button class="btn btn-dark f-urbanist text-uppercase rounded-4">
+                    <button class="btn btn-dark f-urbanist text-uppercase rounded-5 py-3 px-4">
                         Quero entrar para o clube!
                     </button>  
                 </div>  
@@ -142,7 +187,7 @@
         </section>
 
         <section id="assinatura">
-            <div class="assinatura mt-5">
+            <div class="assinatura my-5">
                 <div class="card mx-4 rounded-4">
                     <div class="card-header text-center">
                       <h2 class="display-4 fw-bold f-urbanist">
@@ -187,13 +232,27 @@
             </div>
 
         </section>
+
+        <section id="trial">
+          <div class="trial text-center mx-4">
+            <h5 class="f-urbanist m-0">
+              Experimente por
+            </h5>
+            <h3 class="f-urbanist display-1 border-bottom">
+              7 dias GRÁTIS!
+            </h3>
+            <article class="f-montserrat">
+              Após se inscrever, você tem 7 dias para decidir se quer ou não continuar na Clube Odissey.
+              Caso decida não continuar, basta você entrar em contato dentro desse prazo e devolveremos seu dinheiro sem nenhuma burocracia.
+            </article>
+          </div>
+        </section>
     
     </main>
-    <footer class="bg-preto">
+    <footer class="bg-preto mt-5">
         <div class="d-flex flex-column justify-content-center align-items-center">
-            <p class="m-0">LOGO</p>
-            <img src="/padrão/logotipo.png" alt="" class="text-center logotipo-footer" id="logo">
- 
+            <img src="/padrão/logotipo.png" alt="" class="text-center logotipo-footer my-3" id="logo">
+            <p class="m-0 branco f-montserrat text-center display-8">Copyright &copy; Odissey 2023 ━ Todos os direitos reservados</p>
         </div>
     </footer>
 </body>
