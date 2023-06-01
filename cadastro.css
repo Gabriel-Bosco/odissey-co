@@ -8,6 +8,19 @@
     background-position: center;
 }
 
+.assinatura-bg {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.89)), url(/imagensmd/bg-video1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 767.98px) {
+    .bg-md-only {
+      background-image: none !important;
+    }
+  }
+  
+
 ul, ol {
     list-style: none;
 }
@@ -47,7 +60,7 @@ footer {
 }
 
 .video-md {
-    width: 374px;
+    width: 440px;
     height: 250px;
 }
 

@@ -19,7 +19,7 @@
     <main> 
       <header id="inicio">
         <div class="inicio inicio-bg d-flex flex-column pt-5 px-3">
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center justify-content-md-center mb-md-5">
             <img src="/padrão/logotipo.png" alt="" class="logotipo-header">
             <div class="d-flex flex-column align-items-center container-header rounded-circle">
               <h1 class="f-comforter cor-logo fw-bold titulo-header">
@@ -30,7 +30,7 @@
               </h2>
             </div>
           </div>
-          <div class="pt-5 px-4">
+          <div class="pt-5 px-4 mb-md-5">
             <h3 class="preto f-montserrat display-3 lh-1 text-center pb-3">
               Nós sabemos o caminho das pedras!
             </h3>
@@ -39,13 +39,13 @@
             </p>
           </div>
           <div class="container-button text-center my-3 pt-5">
-            <button class="btn btn-dark f-urbanist text-uppercase rounded-5 py-3 px-4">
+            <button class="btn btn-dark f-urbanist text-uppercase rounded-5 py-3 px-4 mb-md-5">
               <a href="#assinatura" class="link-light link-underline link-underline-opacity-0">
                 Quero entrar para o clube!
               </a>
             </button>  
           </div> 
-          <div class="pt-5 px-4">
+          <div class="pt-5 px-4 my-md-5">
             <h6 class="preto f-montserrat display-6 lh-1 text-center pb-3">
               Descubra o clube Odissey: Trilhas e aventuras completas!
             </h6>
@@ -65,35 +65,46 @@
       </header>
       
         <section id="video">
-            <div class="d-flex flex-column justify-content-around video-container py-3">
+          <div class="">
+            <div class="mb-md-5 pb-md-5">
+              <div class="d-flex flex-column justify-content-around video-container py-3">
                 <div>
-                    <h1 class=" text-center py-3 preto f-urbanist display-3 px-3">
-                        Bem-vindo ao Clube de Trilhas e Aventuras: 
-                    </h1>
-                    <p class="f-montserrat px-3 py-4">
-                        Estamos unindo aqueles que acreditam que as trilhas e aventuras são mais do que apenas atividades físicas.
-                        Aqui iniciamos um pacto com a descoberta pessoal. Junte-se a nós nessa jornada emocionante!
+                  <h1 class=" text-center py-3 preto f-urbanist display-3 px-3">
+                    Bem-vindo ao Clube de Trilhas e Aventuras: 
+                  </h1>
+                </div>
+                <div class="text-center d-md-flex justify-content-md-evenly mx-md-5 my-md-5">
+                  <div class="d-flex flex-column">
+                    <p class="f-montserrat py-4 text-md-center text-md-uppercase ms-3 ms-md-0" style="max-width: 400px;">
+                      Estamos unindo aqueles que acreditam que as trilhas e aventuras são mais do que apenas atividades físicas.
+                      Aqui iniciamos um pacto com a descoberta pessoal. Junte-se a nós nessa jornada emocionante!
                     </p>
+                    <button class="btn btn-dark f-urbanist text-uppercase rounded-5 py-3 px-4 d-none d-md-block mx-3">
+                      <a href="#assinatura" class="link-light link-underline link-underline-opacity-0">
+                          Quero entrar para o clube!
+                      </a>
+                    </button> 
+                  </div>
+                  <iframe src="https://www.youtube.com/embed/CNNkI7HWT1Q" title="YouTube video player" class="video-md rounded-2 my-5 my-md-0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <div class="text-center">
-                    <iframe src="https://www.youtube.com/embed/CNNkI7HWT1Q" title="YouTube video player" class="video-md rounded-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="d-block d-flex d-md-none justify-content-center my-5 my-md-0">
+                  <button class="btn btn-dark f-urbanist text-uppercase rounded-5 py-3 px-4 d-block d-md-none">
+                    <a href="#assinatura" class="link-light link-underline link-underline-opacity-0">
+                        Quero entrar para o clube!
+                    </a>
+                  </button> 
                 </div>
+              </div>
             </div>
-            <div class="container-button text-center my-5 pt-3">
-                <button class="btn btn-dark f-urbanist text-uppercase rounded-5 py-3 px-4">
-                  <a href="#assinatura" class="link-light link-underline link-underline-opacity-0">
-                    Quero entrar para o clube!
-                  </a>
-                </button>  
-            </div>  
+          </div>
         </section>
 
         <section id="vantagens">
             <div class="vantagens px-3 pb-3 d-flex flex-column justify-content-around">
-                <h2 class="text-center f-urbanist display-3 mt-5">
+                <h2 class="text-center f-urbanist display-3 mt-5 my-md-5">
                     Veja os benefícios do Clube:
                 </h2>
-                <div class="container text-center">
+                <div class="container text-center mt-md-4">
                     <div class="row row-gap-5">
                         <div class="col-sm-6 col-md-4"> 
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
@@ -143,7 +154,7 @@
                       </a>
                     </button>  
                 </div>  
-                <div class="container-element text-center">
+                <div class="container-element text-center mb-md-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                         <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
@@ -153,7 +164,7 @@
         </section>
 
         <section id="avaliacoes">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide avaliacoes pt-5" data-bs-ride="carousel"  data-bs-interval="3000">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide avaliacoes pt-5 d-block d-md-none" data-bs-ride="carousel"  data-bs-interval="3000">
                 <div class="carousel-inner py-5">
                     <div class="carousel-item active">
                         <div class="card border-0 m-auto" style="width: 18rem;">
@@ -190,7 +201,40 @@
                   </div>
                 </div>
             </div>
-            <div class="container-element text-center">
+
+            <div id="card-md" class=" d-none d-md-block">
+              <div class="d-flex justify-content-center align-items-start mt-5">
+                <div class="card border-0 mx-auto" style="width: 18rem;">
+                  <img src="/padrão/Avaliacoes/av1.png" class="d-block w-100 rounded-circle" alt="...">
+                  <div class="card-body d-flex justify-content-between align-items-center pb-0">
+                    <p class="f-space display-1 align-self-center pe-1 pt-4">“</p>
+                    <p class="card-text text-center f-montserrat pt-4">O Clube de Trilhas e Aventuras me ajudou a superar meus medos e limitações. Mal posso esperar para ver o que o futuro reserva!</p>
+                    <p class="f-space display-1 align-self-center ps-1 pt-4">”</p>
+                  </div>
+                  <p class="f-urbanist text-end cinza-escuro pt-5">━ Hélio Costa</p>
+                </div>
+                <div class="card border-0 mx-auto" style="width: 18rem;">
+                  <img src="/padrão/Avaliacoes/av3.png" class="d-block w-100 rounded-circle" alt="...">
+                  <div class="card-body d-flex justify-content-between pb-0">
+                    <p class="f-space display-1 align-self-center pe-2">“</p>
+                    <p class="card-text text-center f-montserrat">Eu não poderia estar mais feliz em fazer parte do Clube Odissey. Desde que me juntei, participei de aventuras incríveis, fiz amizades e aprendi muito sobre mim mesma. Obrigada, Clube!</p>
+                    <p class="f-space display-1 align-self-center ps-2">”</p>
+                  </div>
+                  <p class="f-urbanist text-end cinza-escuro">━ Helena Maria</p>
+                </div>
+                <div class="card border-0 mx-auto" style="width: 18rem;">
+                  <img src="/padrão/Avaliacoes/av2.png" class="d-block w-100 rounded-circle" alt="...">
+                  <div class="card-body d-flex justify-content-between pb-0">
+                    <p class="f-space display-1 align-self-center pe-2">“</p>
+                    <p class="card-text text-center f-montserrat pt-2">Eu amo o fato de que o Clube Odissey sempre se preocupa com o meio ambiente e a sustentabilidade. É um grupo incrível e estão fazendo a diferença no mundo.</p>
+                    <p class="f-space display-1 align-self-center ps-2">”</p>
+                  </div>
+                  <p class="f-urbanist text-end cinza-escuro pt-4">━ Naya Rodrigues</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="container-element text-center my-md-5">
               <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-chevron-double-down my-5" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                   <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
@@ -199,7 +243,7 @@
         </section>
 
         <section id="assinatura">
-          <div class="assinatura my-5">
+          <div class="assinatura my-5 d-block d-md-none">
             <div class="card mx-4 rounded-4">
               <div class="card-header text-center">
                 <h2 class="display-4 fw-bold f-urbanist">
@@ -245,10 +289,60 @@
             </div>
           </div>
 
+          <div class="assinatura my-5 d-none d-md-block assinatura-bg bg-md-only">
+            <div class="d-flex justify-content-center">
+              <div class="card mx-4 rounded-4" style="width: 500px;">
+                <div class="card-header text-center">
+                  <h2 class="display-4 fw-bold f-urbanist">
+                    Assinatura Anual
+                  </h2>
+                  <h3 class="f-montserrat">
+                    Acesso por 365 dias
+                  </h3>
+                </div>
+                <div class="card-body text-center mt-4">
+                  <h5 class="card-title display-7 fw-bold f-urbanist">
+                    12x de R$49,90
+                  </h5>
+                  <p class="card-text f-montserrat text-uppercase mb-5">
+                      Ou R$499 à vista
+                  </p>
+                  <ul class="ul-assinatura text-center">
+                    <li class="py-4 border-bottom">
+                      <i class="bi bi-check2-all d-inline"></i>
+                      <p class="d-inline">Suporte exclusivo ao membro</p>
+                    </li>
+                    <li class="py-4 border-bottom">
+                      <i class="bi bi-check2-all d-inline"></i> 
+                      <p class="d-inline">Descontos de até 70% em produtos Odissey</p>
+                    </li>
+                    <li class="py-4 border-bottom">
+                      <i class="bi bi-check2-all d-inline"></i> 
+                      <p class="d-inline">Acesso antecipado a novos produtos</p>
+                    </li>
+                    <li class="py-4 border-bottom">
+                      <i class="bi bi-check2-all d-inline"></i> 
+                      <p class="d-inline">Mais de 5.000 membros ativos</p>
+                    </li>
+                    <li class="py-4 border-bottom">
+                      <i class="bi bi-check2-all d-inline"></i> 
+                      <p class="d-inline">Desafios e atividades para estimular seu progresso.</p>
+                    </li>
+                  </ul>
+                  <a href="" class="btn btn-primary f-urbanist text-uppercase rounded-4 py-3 px-5">
+                    Comece agora
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
         </section>
 
         <section id="trial">
-          <div class="trial text-center mx-4">
+          <div class="trial text-center mx-4 d-block d-md-none">
             <h5 class="f-urbanist m-0">
               Experimente por
             </h5>
@@ -260,29 +354,24 @@
               Caso decida não continuar, basta você entrar em contato dentro desse prazo e devolveremos seu dinheiro sem nenhuma burocracia.
             </article>
           </div>
-        </section>
 
-        <button class="open-popup-btn">Cadastrar e Pagar</button>
-
-
-        <section id="teste">
-          <div class="popup-overlay">
-            <div class="popup-container">
-              <h2>Cadastre-se e faça o pagamento</h2>
-              <form id="cadastro-form">
-                <!-- Campos de cadastro -->
-                <input type="text" id="nome" placeholder="Nome">
-                <input type="email" id="email" placeholder="E-mail">
-                <input type="text" id="cartao" placeholder="Número do Cartão">
-                <!-- Outros campos e botões de pagamento -->
-                <button type="submit">Pagar</button>
-              </form>
-              <button class="close-btn">Fechar</button>
+          <div class="d-flex justify-content-center">
+            <div class="trial text-center mx-4 d-none d-md-block my-5" style="width: 600px;">
+              <h5 class="f-urbanist m-0">
+                Experimente por
+              </h5>
+              <h3 class="f-urbanist display-1 border-bottom">
+                7 dias GRÁTIS!
+              </h3>
+              <article class="f-montserrat">
+                Após se inscrever, você tem 7 dias para decidir se quer ou não continuar na Clube Odissey.
+                Caso decida não continuar, basta você entrar em contato dentro desse prazo e devolveremos seu dinheiro sem nenhuma burocracia.
+              </article>
             </div>
           </div>
         </section>
-    
     </main>
+
     <footer class="bg-preto mt-5">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <img src="/padrão/logotipo.png" alt="" class="text-center logotipo-footer my-3" id="logo">
