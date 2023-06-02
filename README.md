@@ -21,8 +21,8 @@ O Odissey Club é uma plataforma colaborativa para entusiastas de atividades ao 
 
 Para executar o site do Odissey Club localmente, siga estas etapas:
 
-1. Clone o repositório: `git clone https://github.com/Gabriel-Bosco/odissey.git`
-2. Navegue até o diretório do projeto: `cd odissey-club`
+1. Clone o repositório: `git clone https://github.com/Gabriel-Bosco/odissey-co.git`
+2. Navegue até o diretório do projeto: `cd odissey`
 3. Abra o arquivo `index.html` em seu navegador da web preferido.
 
 ## Contribuição
