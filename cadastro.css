@@ -9,10 +9,18 @@
 }
 
 .assinatura-bg {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.89)), url(/imagensmd/bg-video1.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.85)), url(/imagensmd/bg-assinatura.png);
     background-size: cover;
     background-position: center;
 }
+
+.vantagens-bg {
+    background: rgb(255,255,255);
+    background: linear-gradient(118deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,0.6783088235294117) 64%, rgba(255,255,255,0.5690651260504201) 90%, rgba(255,255,255,0.44861694677871145) 100%), url(/montanha.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 
 @media (max-width: 767.98px) {
     .bg-md-only {
