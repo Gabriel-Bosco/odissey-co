@@ -13,11 +13,15 @@ O Odissey Club é uma plataforma colaborativa para entusiastas de atividades ao 
 - JavaScript
 - Bootstrap
 
+## Acesse
+
+- Visite o site através do link: [Odissey Club](https://odissey-co.vercel.app/)
+
 ## Começando
 
 Para executar o site do Odissey Club localmente, siga estas etapas:
 
-1. Clone o repositório: `git clone https://github.com/seu-nome-de-usuário/odissey-club.git`
+1. Clone o repositório: `git clone https://github.com/Gabriel-Bosco/odissey.git`
 2. Navegue até o diretório do projeto: `cd odissey-club`
 3. Abra o arquivo `index.html` em seu navegador da web preferido.
 
@@ -36,7 +40,7 @@ Aceitamos contribuições da comunidade de desenvolvedores para aprimorar o proj
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato conosco:
 
 - Email: [gabrielboscodev@gmail.com](mailto:gabrielboscodev@gmail.com)
-- LinkedIN: [www.linkedin.com/in/gabriel-bosco-dev](www.linkedin.com/in/gabriel-bosco-dev)
+- LinkedIn: [Gabriel Bosco no LinkedIn](www.linkedin.com/in/gabriel-bosco-dev)
 - GitHub: [Gabriel Bosco no GitHub](https://github.com/Gabriel-Bosco)
 
 Obrigado por visitar o repositório do Odissey Club no GitHub. Aproveite suas aventuras!
