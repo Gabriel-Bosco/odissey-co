@@ -8,9 +8,14 @@
     background-position: center;
 }
 
-.logotipo-header:hover {
-    transition: 400ms ease-in-out;
-    transform: scale(1.15);
+.div-logo {
+    transition: 300ms ease-in-out;
+}
+
+.div-logo:hover {
+    transition: 300ms ease-in-out;
+    transform: scale(1.05);
+    filter: brightness(1.2);
 }
 
 .assinatura-bg {
@@ -67,7 +72,6 @@ ul, ol {
     width: 150px;
     object-fit: contain;
     margin-right: -20px;
-    transition: 300ms;
 }
 
 .avaliacoes {
