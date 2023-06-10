@@ -8,6 +8,11 @@
     background-position: center;
 }
 
+.logotipo-header:hover {
+    transition: 400ms ease-in-out;
+    transform: scale(1.15);
+}
+
 .assinatura-bg {
     background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.85)), url(/midias/bg-assinatura.png);
     background-size: cover;
@@ -19,6 +24,15 @@
     background: linear-gradient(118deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,0.6783088235294117) 64%, rgba(255,255,255,0.5690651260504201) 90%, rgba(255,255,255,0.44861694677871145) 100%), url(/midias/montanha.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.icone-vantagens {
+    transition: 300ms ease-in-out;
+}
+
+.icone-vantagens:hover {
+    transition: 300ms ease-in-out;
+    transform: scale(1.2);
 }
 
 
@@ -53,6 +67,7 @@ ul, ol {
     width: 150px;
     object-fit: contain;
     margin-right: -20px;
+    transition: 300ms;
 }
 
 .avaliacoes {
