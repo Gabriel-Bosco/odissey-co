@@ -80,28 +80,55 @@ ul, ol {
 
 @keyframes rotateImage1 {
     0% {
-        clip-path: circle(45.7% at 50% 47%);
-    }
+        clip-path: circle(46% at 49% 47%);
+        }
+
+    30% {
+        clip-path: circle(47.9% at 49% 45%);
+        }
+
+    60% {
+        clip-path: circle(48% at 47% 46%);
+        }
+
     100% {
-        clip-path: circle(48.6% at 47% 49%);
-    }
+        clip-path: circle(45.5% at 49% 44%);
+        }
   }
 
   @keyframes rotateImage2 {
     0% {
-        clip-path: circle(49.7% at 48% 50%);
+        clip-path: circle(47.9% at 49% 47%);
     }
+
+    30% {
+        clip-path: circle(48% at 47% 47%);
+    }
+
+    60% {
+        clip-path: circle(45.5% at 49% 50%);
+    }
+
     100% {
-        clip-path: circle(46.6% at 50% 49%);
+        clip-path: circle(46% at 49% 51%);
     }
   }
   
   @keyframes rotateImage3 {
     0% {
-        clip-path: circle(45.5% at 49% 51%);
+        clip-path: circle(45.5% at 49% 50%);
     }
+
+    30% {
+        clip-path: circle(46% at 49% 51%);
+    }
+
+    60% {
+        clip-path: circle(48% at 47% 47%);
+    }
+
     100% {
-        clip-path: circle(48.9% at 49% 48%);
+        clip-path: circle(47.9% at 49% 47%);
     }
   }
 
