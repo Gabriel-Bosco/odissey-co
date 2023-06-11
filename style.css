@@ -15,12 +15,11 @@
 }
   
 .ativo {
-    animation: myAnim 1s ease-out 0ms 1 normal forwards;
+    animation: showUp 1s ease-out 0ms 1 normal forwards;
     opacity: 1;
 }
 
-
-@keyframes myAnim {
+@keyframes showUp {
 	0% {
 		transform: scale(0);
 		transform-origin: 50% 100%;
@@ -48,14 +47,12 @@
     transform: scale(1.2);
 }
 
-
 @media (max-width: 767.98px) {
     .bg-md-only {
       background-image: none !important;
     }
   }
   
-
 ul, ol {
     list-style: none;
 }
@@ -65,6 +62,48 @@ ul, ol {
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 54%);
 }
 
+.fundo-movel1 { 
+    background-clip: content-box;
+    animation: rotateImage1 5s linear 0s infinite alternate backwards;
+}
+
+.fundo-movel2 {
+    background-clip: content-box;
+    animation: rotateImage2 5s linear 0s infinite alternate backwards;
+}
+
+.fundo-movel3 {
+    background-clip: content-box;
+    animation: rotateImage3 5s linear 0s infinite alternate backwards;
+}
+
+
+@keyframes rotateImage1 {
+    0% {
+        clip-path: circle(45.7% at 50% 47%);
+    }
+    100% {
+        clip-path: circle(48.6% at 47% 49%);
+    }
+  }
+
+  @keyframes rotateImage2 {
+    0% {
+        clip-path: circle(49.7% at 48% 50%);
+    }
+    100% {
+        clip-path: circle(46.6% at 50% 49%);
+    }
+  }
+  
+  @keyframes rotateImage3 {
+    0% {
+        clip-path: circle(45.5% at 49% 51%);
+    }
+    100% {
+        clip-path: circle(48.9% at 49% 48%);
+    }
+  }
 
 /* --- DIMENSÕES --- */
 .vh {
