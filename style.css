@@ -170,6 +170,11 @@ footer {
     height: 80vh;
 }
 
+.img-icon {
+    filter: invert(1);
+    width: 25px;
+}
+
 
 /* --- FONTES --- */ 
 .f-urbanist {
